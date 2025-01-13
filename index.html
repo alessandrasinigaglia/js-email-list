@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Mails</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Email List:</h1>
-    <ul id="email">
-    </ul>
-    <div class="btn">
-        <button id="gen">Generate Email</button>
-    </div>
+    <header>
+        <h1>Email List:</h1>
+    </header>
+    <main class="container"> 
+        <div class="list-items">
+            <ul id="email"></ul>
+        </div>
+    </main>
+        <div class="btn">
+            <button id="gen">Generate Email</button>
+        </div>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="script.js"></script>
 </body>
